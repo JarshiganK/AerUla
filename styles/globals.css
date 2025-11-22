@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply min-h-screen bg-gradient-to-b from-aerulaBlue-50 to-white text-slate-900;
+  scroll-behavior: smooth;
+}
+
+.section-padding {
+  @apply px-4 sm:px-6 lg:px-20 py-16 sm:py-20;
+}
