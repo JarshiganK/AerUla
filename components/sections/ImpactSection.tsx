@@ -6,11 +6,11 @@ export default function ImpactSection() {
     return (
         <Section id="impact" className="bg-white">
             <div className="text-center max-w-3xl mx-auto mb-20">
-                <span className="text-Blue-500 font-bold tracking-wider uppercase text-sm mb-3 block">Our Impact</span>
-                <h2 className="text-4xl md:text-5xl font-bold text-Blue-700 mb-6 tracking-tight">
+                <span className="text-aerulaBlue-500 font-bold tracking-wider uppercase text-sm mb-3 block">Our Impact</span>
+                <h2 className="text-4xl md:text-5xl font-bold text-aerulaBlue-700 mb-6 tracking-tight">
                     Community First
                 </h2>
-                <p className="text-xl text-Blue-700/60">
+                <p className="text-xl text-slate-700">
                     Every visit contributes directly to the well-being of our village.
                 </p>
             </div>

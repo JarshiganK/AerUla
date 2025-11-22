@@ -19,13 +19,13 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     ({ className, variant = "primary", size = "md", asChild = false, ...props }, ref) => {
-        const baseStyles = "inline-flex items-center justify-center whitespace-nowrap rounded-full font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-Blue-400 disabled:pointer-events-none disabled:opacity-50";
+        const baseStyles = "inline-flex items-center justify-center whitespace-nowrap rounded-full font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-aerulaBlue-400 disabled:pointer-events-none disabled:opacity-50";
 
         const variants = {
-            primary: "bg-Blue-500 text-white shadow-float hover:bg-Blue-700 hover:shadow-lg hover:-translate-y-0.5",
-            secondary: "bg-Blue-50 text-Blue-700 hover:bg-Blue-100",
-            outline: "border border-Blue-100 bg-transparent hover:bg-Blue-50 text-Blue-700",
-            ghost: "hover:bg-Blue-50 text-Blue-700/80 hover:text-Blue-500",
+            primary: "bg-aerulaBlue-500 text-white shadow-float hover:bg-aerulaBlue-700 hover:shadow-lg hover:-translate-y-0.5",
+            secondary: "bg-aerulaBlue-50 text-aerulaBlue-700 hover:bg-aerulaBlue-100",
+            outline: "border border-aerulaBlue-100 bg-transparent hover:bg-aerulaBlue-50 text-aerulaBlue-700",
+            ghost: "hover:bg-aerulaBlue-50 text-aerulaBlue-700/80 hover:text-aerulaBlue-500",
         };
 
         const sizes = {

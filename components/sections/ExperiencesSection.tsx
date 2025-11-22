@@ -17,13 +17,13 @@ interface ExperiencesSectionProps {
 
 export default function ExperiencesSection({ experiences }: ExperiencesSectionProps) {
     return (
-        <Section id="experiences" className="bg-Blue-50/30">
+        <Section id="experiences" className="bg-aerulaBlue-50/60">
             <div className="text-center max-w-3xl mx-auto mb-20">
-                <span className="text-Blue-500 font-bold tracking-wider uppercase text-sm mb-3 block">Curated Moments</span>
-                <h2 className="text-4xl md:text-5xl font-bold text-Blue-700 mb-6 tracking-tight">
+                <span className="text-aerulaBlue-500 font-bold tracking-wider uppercase text-sm mb-3 block">Curated Moments</span>
+                <h2 className="text-4xl md:text-5xl font-bold text-aerulaBlue-700 mb-6 tracking-tight">
                     Experiences that Linger
                 </h2>
-                <p className="text-xl text-Blue-700/60">
+                <p className="text-xl text-slate-700">
                     Hand-picked activities designed to immerse you in the local way of life.
                 </p>
             </div>

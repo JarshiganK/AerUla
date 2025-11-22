@@ -23,13 +23,13 @@ export default function RootLayout({
                 <main className="flex-grow flex flex-col">
                     {children}
                 </main>
-                <footer className="py-12 text-center text-Blue-700/60 text-sm bg-Blue-50 border-t border-Blue-100">
+                <footer className="py-12 text-center text-slate-500 text-sm bg-white border-t border-aerulaBlue-100">
                     <div className="max-w-7xl mx-auto px-6">
                         <p className="mb-4">© {new Date().getFullYear()} . All rights reserved.</p>
                         <div className="flex justify-center gap-6">
-                            <a href="#" className="hover:text-Blue-500 transition-colors">Privacy</a>
-                            <a href="#" className="hover:text-Blue-500 transition-colors">Terms</a>
-                            <a href="#" className="hover:text-Blue-500 transition-colors">Instagram</a>
+                            <a href="#" className="hover:text-aerulaBlue-500 transition-colors">Privacy</a>
+                            <a href="#" className="hover:text-aerulaBlue-500 transition-colors">Terms</a>
+                            <a href="#" className="hover:text-aerulaBlue-500 transition-colors">Instagram</a>
                         </div>
                     </div>
                 </footer>

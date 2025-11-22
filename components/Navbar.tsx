@@ -23,7 +23,7 @@ export default function Navbar() {
             className={cn(
                 "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
                 scrolled
-                    ? "bg-white/80 backdrop-blur-md shadow-sm py-3"
+                    ? "bg-white/80 backdrop-blur border-b border-aerulaBlue-100 py-3"
                     : "bg-transparent py-6"
             )}
         >
@@ -37,7 +37,7 @@ export default function Navbar() {
                             className="object-contain"
                         />
                     </div>
-                    <span className="font-bold text-2xl tracking-tight text-Blue-700">
+                    <span className="font-bold text-2xl tracking-tight text-aerulaBlue-700">
 
                     </span>
                 </Link>
@@ -47,7 +47,7 @@ export default function Navbar() {
                         <Link
                             key={item}
                             href={`/#${item.toLowerCase()}`}
-                            className="text-Blue-700/80 hover:text-Blue-500 transition-colors font-medium"
+                            className="text-slate-600 hover:text-aerulaBlue-500 transition-colors font-medium"
                         >
                             {item}
                         </Link>
