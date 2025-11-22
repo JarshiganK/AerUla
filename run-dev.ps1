@@ -1,5 +1,5 @@
 param(
-    [string] $DbName = '',
+    [string] $DbName = 'aerula',
     [string] $DbHost = 'localhost',
     [int]    $DbPort = 5432,
     [string] $DbUser = 'postgres',
@@ -77,7 +77,7 @@ if (-not $SkipDb) {
     $dbExists = psql -h $DbHost -p $DbPort -U $DbUser -d postgres -t -c "SELECT 1 FROM pg_database WHERE datname='$DbName'" 2>$null
     if (-not $dbExists.Trim()) {
         try {
-            Invoke-Psql -Database 'postgres' -Command "CREATE DATABASE `"$DbName`";"
+            Invoke-Psql -Database 'postgres' -Command "CREATE DATABASE `"$DbName`" ;"
             Write-Success "Database '$DbName' created"
         }
         catch {
